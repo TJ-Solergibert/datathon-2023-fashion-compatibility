@@ -10,7 +10,7 @@ import pandas as pd
 import shutil
 
 
-DEBUG = False
+DEBUG = True
 
 list_of_products = ["Dress", "Sweater", "T-Shirt", "Trousers", "Top", "Skirt", "Earrings", "Blouse", "Jeans", "Shirt", "Handbag", "Sandals", "Jacket", "Jumpsuit", "Coat", "Belt", "Cardigan", "Blazer", "Shorts", "Shoes", "Necklace", "Shoulder bag", "Crossbody bag", "Ankle Boots", "Sunglasses", "Puffer coat", "Kerchief", "Scarf", "Wallet", "Sweatshirt", "Glasses", "Beanie", "Totes bag", "Boots", "Cosmetic bag", "Vest", "Ring", "Trenchcoat", "Leggings", "Card holder", "Bracelet", "Bodysuit", "Gloves", "Bikini top", "Case", "Foulard", "Trainers", "Purse", "Pyjama Trousers", "Socks", "Leather Jacket", "Hat", "Pyjama", "Cap", "Bras", "Bermudas", "Overshirt", "Outer vest", "Bikini pantie", "Sweater Vest", "Pyjama Shirt", "Bucket bag", "Citybag", "Tights", "Overall", "Poloshirt", "Hairclip", "Parka", "Swimsuit", "Poncho", "Cardigan Vest", "Nightgown", "Clutch and Pochettes", "Shape", "Kaftan", "Pyjama Shorts", "Cape", "Pyjama T-Shirt", "Belt bag", "Hairband", "Pyjama Sweatshirt", "Dressing Gown (Bata)", "Pyjama Top", "Tie", "Glasses case", "Mini Bag", "Backpack", "Joggers", "Headband", "Sock (Pack)", "Jacket (Cazadora)", "Knicker", "Skort", "Turban", "Pichi", "Braces", "Slippers", "Pyjama Cardigan", "Clogs"]
 list_of_colors = ["Grey", "White", "Blue", "Brown", "Pink", "Red", "Green", "Yellow", "Orange", "Purple"]
